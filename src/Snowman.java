@@ -17,17 +17,17 @@ public class Snowman extends Frame{
 		bottomCircle = new Ellipse();
 		bottomCircle.setLocation (275,325);
 		bottomCircle.setSize (175,175);
-		bottomCircle.setColor(Color.blue);
+		bottomCircle.setColor(Color.cyan);
 		
 		midCircle = new Ellipse();
 		midCircle.setLocation(305,225);
 		midCircle.setSize(115,115);
-		midCircle.setColor(Color.blue);
+		midCircle.setColor(Color.cyan);
 		
 		topCircle = new Ellipse();
 		topCircle.setLocation(315,142);
 		topCircle.setSize(90,90);
-		topCircle.setColor(Color.blue);
+		topCircle.setColor(Color.cyan);
 		
 		hat = new Rectangle();
 		hat.setLocation(320,60);
