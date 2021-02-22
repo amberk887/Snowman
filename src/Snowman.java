@@ -11,6 +11,8 @@ public class Snowman extends Frame{
 	private Ellipse midCircle;
 	private Ellipse topCircle;
 	private Ellipse sun;
+	private Ellipse button1;
+	private Ellipse button2;
 	private Rectangle hat;
 	private Rectangle grass;
 	private Line hatLine;
@@ -41,6 +43,16 @@ public class Snowman extends Frame{
 		sun.setLocation (500,50);
 		sun.setSize(125,125);
 		sun.setColor(Color.yellow);
+		
+		button1 = new Ellipse();
+		button1.setLocation(355,245);
+		button1.setSize(15,15);
+		button1.setColor(Color.black);
+		
+		button2 = new Ellipse();
+		button2.setLocation(355,280);
+		button2.setSize(15,15);
+		button2.setColor(Color.black);
 		
 		
 		hat = new Rectangle();
