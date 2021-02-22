@@ -61,7 +61,7 @@ public class Snowman extends Frame{
 		button1 = new Ellipse();
 		button1.setLocation(355,245);
 		button1.setSize(15,15);
-		button1.setColor(Color.black);
+		button1.setColor(Color.blue);
 		
 		button2 = new Ellipse();
 		button2.setLocation(355,275);
@@ -71,7 +71,7 @@ public class Snowman extends Frame{
 		button3 = new Ellipse();
 		button3.setLocation(355,305);
 		button3.setSize(15,15);
-		button3.setColor(Color.black);
+		button3.setColor(Color.red);
 		
 		
 		hat = new Rectangle();
