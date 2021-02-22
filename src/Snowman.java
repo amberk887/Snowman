@@ -35,10 +35,6 @@ public class Snowman extends Frame{
 		sun.setSize(125,125);
 		sun.setColor(Color.yellow);
 		
-		sun = new Ellipse ();
-		sun.setLocation (550,50);
-		sun.setSize(100,100);
-		sun.setColor(Color.yellow);
 		
 		
 		hat = new Rectangle();
